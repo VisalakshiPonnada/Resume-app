@@ -12,7 +12,7 @@ class resume extends StatelessWidget {
     return MaterialApp(debugShowCheckedModeBanner: false,
     title: "resume app" ,
     theme: AppTheme.lightTheme,
-    darkTheme: AppTheme.DarkTheme,
+    darkTheme: AppTheme.darkTheme,
     themeMode: ThemeMode.system,
     home:MainView(),
     );
